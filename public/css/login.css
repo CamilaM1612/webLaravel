@@ -1,0 +1,98 @@
+#inicioSesion {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  #inicioSesion .bienvenido, .tecnoplanner {
+    font-family: var(--font-montserrat);
+    font-size: 75px;
+    margin-left: 30px;
+  }
+  
+  #inicioSesion .grupo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    margin: 15px 5px;
+    font-size: var(--font-montserrat);
+  }
+  #inicioSesion form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #inicioSesion .grupo input {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(111, 134, 255, 1);
+    height: 40px;
+    padding: 1%;
+    border: none;
+  }
+  #inicioSesion .titulo-inicio{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 480px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #inicioSesion .titulo-inicio h3 {
+    background: linear-gradient(to right, rgba(1, 21, 82, 0.9), rgba(180, 0, 1, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 48px;
+    margin: auto;
+  }
+  
+  #btnIniciarSesion {
+    background-color: rgba(111, 134, 255, 1);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;    
+    width: 207px;
+    height: 54px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0,0.7);
+    border: none;      
+  }
+  
+  #decoracion #logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  #decoracion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  #fondo {
+    background: linear-gradient(to right, rgba(1, 21, 82, 0.8),rgba(180, 0, 0, 0.8)), url(../images/fono-inicio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  :root {
+    --font-montserrat: Montserrat;
+    --font-nunito: Nunito;
+    --font-size-base: 16px;
+    --color-white: #fff;
+    --gap-9xs: 4px;
+    --br-3xs: 10px;
+  }
+  
