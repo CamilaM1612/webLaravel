@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --color-azul-fuerte:rgba(7, 8, 38, 1);
+    --color-azul-claro:rgba(1, 21, 82, 1);
+    --color-azul-celeste:rgba(100, 131, 159, 1);
+    --color-rojo-claro:rgba(180, 0, 1, 1);
+    --color-rojo-fuerte:rgba(102, 4, 5, 1);
+    --fuente-principal:"Open Sans", sans-serif;
+    --fuente-segundaria:"Montserrat", sans-serif;
+}
+
+.btn-impresion{
+    background-color: var(--color-rojo-claro); /* Color rojo */
+    border: none;
+    border-radius: 50%; /* Para que sea un círculo */
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size:xx-large;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+.rotated-text {
+    writing-mode: vertical-rl; /* Cambia la orientación del texto */
+    transform: rotate(-180deg); /* Ajusta la rotación según sea necesario */
+    background-color: #800000; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px;
+    margin: 5px 0px;
+  }
+  

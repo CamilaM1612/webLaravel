@@ -14,7 +14,8 @@
         <div class="row">
             <div class="col-md-6" id='formRegistro'>
                 <h2 class="text-center mb-2 text-degrade">Regístrate</h2>
-                <form>
+                <form action="{{ route('registrarUsuario') }}" method="POST">
+                    @csrf
                     <div class="form-group">
                         <label for="nombres">Nombres</label>
                         <input type="text" class="campoRegistro form-control" id="nombres" placeholder="Ingrese sus nombres">
